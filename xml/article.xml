@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+    <art>
+        <title>【匆匆那些年】总结个人博客经历的这四年…</title>
+        <img>images/mood1.jpg</img>
+        <outline>博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，有执着过，也有放弃过…但最后还是坚持了下来，时间如此匆匆，等再回过头已来不及去弥补</outline>
+        <time>2016-01-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>分享我的个人博客访问量如何做到IP从10到600的(图文)</title>
+        <img>images/mood2.jpg</img>
+        <outline>我的个人博客总共展示了三个版本，界面也经历了由“简单”到“复杂”再到“简单”，颜色从“色泽单一”到“五彩斑斓”再到“局部点缀”的过程。原来一年一个版本！而每次改版的契机都是被百度惩罚！界面不要频繁更换！好好检查代码，有没有冗余、结构有没有不合理的地方。</outline>
+        <time>2016-02-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>帝国cms常用标签调用方法总结（不得不收藏哦）</title>
+        <img>images/mood3.jpg</img>
+        <outline>整理了一些常用的帝国cms调用，灵动标签和万能标签的调用方法举例。幻灯片、标题、一级栏目、二级栏目、带模版的友情链接（下拉菜单）、判断内容页字段为空时是如何调用的等等...新手可以借鉴学习。</outline>
+        <time>2016-03-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>我的个人博客之——阿里云空间选择</title>
+        <img>images/mood4.jpg</img>
+        <outline>之前服务器放在电信机房， 联通用户访问速度很不稳定，经常出现访问速度慢的问题，换到阿里云解决了之前的问题。很多人都问我的博客选得什么空间，一年的费用得多少钱，今天我列个表出来，供大家参考。</outline>
+        <time>2016-04-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>如果要学习web前端开发，需要学习什么？</title>
+        <img>images/mood5.jpg</img>
+        <outline>遇到很多新手，都会问，如果要学习web前端开发，需要学习什么？难不难？多久能入门？怎么能快速建一个网站？工资能拿到多少？还有些让我推荐一些培训机构什么的要去学习。我建议是自学，实在是觉得自己没有这个能力，确实是需要一个老师的话，那你还是自己做主找个老师吧！</outline>
+        <time>2016-05-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>IP要突破2000+了</title>
+        <img>images/mood6.jpg</img>
+        <outline>很久都没有更新网站了，现在得空看了下网站怎么样了，没有想到，百度权重4,PR3,访问IP也在上升，一年的时间没有更新，看来一次性做好一个网站很有必要，这回一劳永逸了</outline>
+        <time>2016-06-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>即便是坑，我也想要拉你入伙！</title>
+        <img>images/mood7.jpg</img>
+        <outline>对于刚毕业的学生来说，想学习建网站，掌握一技之长，最简单的入门无非就是学会html和css，先前发表过一篇文章《如果要学习web前端开发，需要学习什么？》，如果你还不知道如何着手，请仔细阅读....7天的时间，入门是没有问题的，当然，如果你用心的话！</outline>
+        <time>2016-07-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+    
+    <art>
+        <title>女程序员职业生涯该如何发展？</title>
+        <img>images/mood8.jpg</img>
+        <outline>不知道自己以后还能不能继续干这一行，结婚不到一年，也许某天开始会离开一两年，当再回来工作的时候，不知道是否能有单位再愿意聘请我，或者说自己能否再胜任这工作，因为这计算机编程专业发展的速度也相当快...三天不学都会落后，更何况是一年甚至更久...</outline>
+        <time>2016-08-20</time>
+        <auther>冯叶青</auther>
+        <blog>心得笔记</blog>
+    </art>
+</article>
