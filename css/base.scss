@@ -22,11 +22,7 @@ header{width: 1000px;height: 120px;margin: auto;overflow: hidden;padding: 0 1em 
     .mainnav{float: right;width: 100%;position: relative;
         .menu{display: block;position: absolute;width: 55px;height: 50px;right: 20px;top: 25px;background:nth($color,8) url(../images/menu.png) no-repeat center;display: none;}
         .logo{float: left;width: 259px;height: 80px;margin-top: 20px; background: url(../images/logo.png) no-repeat;position: relative;
-            .rotates{/*position: absolute;bottom: 0px;right: 70px;overflow: hidden;*/
-                transform-origin: center;
-                transform-style: preserve-3d;
-                animation: rotates linear 3s infinite;
-            }
+            .rotates{animation:rotates 5s linear infinite;-webkit-animation:rotates 5s linear infinite;-moz-animation:rotates 5s linear infinite;-ms-animation:rotates 5s linear infinite;-o-animation:rotates 5s linear infinite;}
         }
         ul{float: right;position: relative;line-height: 50px;margin-top: 50px;overflow: hidden;
             li{float:left;padding:{
@@ -98,9 +94,9 @@ footer{display: block;background: #000;padding: 10px 0x 10px 0px;font-family: '�
 //首页banner
 .obox{height: 300px;position: relative;width: 1000px;margin: auto;
     .texts{position: absolute;top:63px;left:73px;line-height: 25px;color:nth($color,7);text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8), 2px 2px 3px rgba(180, 151, 151, 0.3);font-size: nth($px,4);
-        li:nth-child(1){ animation: animations 3s ease-out 1s both}
-        li:nth-child(2){ opacity: 0; animation: animations 3s ease-out 4s both}
-        li:nth-child(3){ opacity:0;transform: translateX(60px);animation: twinkle 5s ease-in-out 7s both}
+        li:nth-child(1){ animation: animations 3s ease-out 1s both;-webkit-animation: animations 3s ease-out 1s both;-moz-animation: animations 3s ease-out 1s both;-ms-animation: animations 3s ease-out 1s both;-o-animation: animations 3s ease-out 1s both;}
+        li:nth-child(2){ opacity: 0; animation: animations 3s ease-out 4s both;-webkit-animation: animations 3s ease-out 4s both;-moz-animation: animations 3s ease-out 4s both;-ms-animation: animations 3s ease-out 4s both;-o-animation: animations 3s ease-out 4s both}
+        li:nth-child(3){ opacity:0;transform: translateX(60px);animation: twinkle 5s ease-in-out 7s both;-webkit-animation: twinkle 5s ease-in-out 7s both;-moz-animation: twinkle 5s ease-in-out 7s both;-ms-animation: twinkle 5s ease-in-out 7s both;-o-animation: twinkle 5s ease-in-out 7s both;}
     }
     .avatar{overflow: hidden;position: absolute;top:38px;right:47px ;width: 164px;height: 164px;border-radius: 50%;border:5px solid #fff;behavior:url(../PIE/PIE.htc);z-index: 999;
         &:hover a{height: 60px;}
@@ -449,47 +445,48 @@ article{display: block;width: 1000px;margin: auto;overflow: hidden;box-sizing: b
 */
 @-o-keyframes animations { 
     0% {
-transform:translate(0);
+-o-transform:translate(0);
 opacity:0;
 }
  50% {
-transform:translate(30px);
+-o-transform:translate(30px);
 opacity:.5;
 }
  100% {
-transform:translate(60px);
+-o-transform:translate(60px);
 opacity:1;
 }
 }
 @-webkit-keyframes animations { 
     0% {
-transform:translate(0);
+-webkit-transform:translate(0);
 opacity:0;
 }
  50% {
-transform:translate(30px);
+-webkit-transform:translate(30px);
 opacity:.5;
 }
  100% {
-transform:translate(60px);
+-webkit-transform:translate(60px);
 opacity:1;
 }
 }
 @keyframes animations { 
     0% {
-transform:translate(0);
+-webkit-transform:translate(0);
 opacity:0;
 }
  50% {
-transform:translate(30px);
+-webkit-transform:translate(30px);
 opacity:.5;
 }
  100% {
-transform:translate(60px);
+-webkit-transform:translate(60px);
 opacity:1;
 }
 }
 
+//banner动画
 @keyframes twinkle{
     0% {
 opacity:0;
@@ -513,12 +510,138 @@ opacity:.8;
 opacity:1;
 }
 }
+@-webkit-keyframes twinkle{
+    0% {
+opacity:0;
+}
+ 40% {
+opacity:.8;
+}
+ 45% {
+opacity:.3;
+}
+ 50% {
+opacity:.8;
+}
+ 55% {
+opacity:.3;
+}
+ 60% {
+opacity:.8;
+}
+ 100% {
+opacity:1;
+}
+}
+@-moz-keyframes twinkle{
+    0% {
+opacity:0;
+}
+ 40% {
+opacity:.8;
+}
+ 45% {
+opacity:.3;
+}
+ 50% {
+opacity:.8;
+}
+ 55% {
+opacity:.3;
+}
+ 60% {
+opacity:.8;
+}
+ 100% {
+opacity:1;
+}
+}
+@-ms-keyframes twinkle{
+    0% {
+opacity:0;
+}
+ 40% {
+opacity:.8;
+}
+ 45% {
+opacity:.3;
+}
+ 50% {
+opacity:.8;
+}
+ 55% {
+opacity:.3;
+}
+ 60% {
+opacity:.8;
+}
+ 100% {
+opacity:1;
+}
+}
+@-o-keyframes twinkle{
+    0% {
+opacity:0;
+}
+ 40% {
+opacity:.8;
+}
+ 45% {
+opacity:.3;
+}
+ 50% {
+opacity:.8;
+}
+ 55% {
+opacity:.3;
+}
+ 60% {
+opacity:.8;
+}
+ 100% {
+opacity:1;
+}
+}
+//logo旋转
 @keyframes rotates{
     0%{
         transform:rotate(0deg);
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotates{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotates{
+    0%{
+        -moz-transform:rotate(0deg);
+    }
+    100%{
+        -moz-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes rotates{
+    0%{
+        -ms-transform:rotate(0deg);
+    }
+    100%{
+        -ms-transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotates{
+    0%{
+        -o-transform:rotate(0deg);
+    }
+    100%{
+        -o-transform: rotate(360deg);
     }
 }
 
@@ -535,31 +658,31 @@ opacity:1;
 @-webkit-keyframes right{
     0%{
         opacity:0;
-        transform: translateX(450px);
+        -webkit-transform: translateX(450px);
     }
     100%{
         opacity:1;
-        transform:translateX(0);
+        -webkit-transform:translateX(0);
     }
 }
 @-moz-keyframes right{
     0%{
         opacity:0;
-        transform:translateX(450px);
+        -moz-transform:translateX(450px);
     }
     100%{
         opacity:1;
-        transform: translateX(0);
+        -moz-transform: translateX(0);
     }
 }
 @-o-keyframes right{
     0%{
         opacity:0;
-        transform: translateX(450px);
+        -o-transform: translateX(450px);
     }
     100%{
         opacity:1;
-        transform: translateX(0px);
+        -o-transform: translateX(0px);
     }
 }
 @keyframes left{
@@ -575,30 +698,30 @@ opacity:1;
 @-webkit-keyframes left{
     0%{
         opacity:0;
-        transform: translateX(-450px);
+        -webkit-transform: translateX(-450px);
     }
     100%{
         opacity:1;
-        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
     }
 }
 @-moz-keyframes left{
     0%{
         opacity:0;
-        transform: translateX(-450px);
+        -moz-transform: translateX(-450px);
     }
     100%{
         opacity:1;
-        transform: translateX(0px);
+        -moz-transform: translateX(0px);
     }
 }
 @-o-keyframes left{
     0%{
         opacity:0;
-        transform: translateX(-450px);
+        -o-transform: translateX(-450px);
     }
     100%{
         opacity:1;
-        transform: translateX(0px);
+        -o-transform: translateX(0px);
     }
 }
