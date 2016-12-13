@@ -16,7 +16,6 @@
     </style>
 </head>
 <body>
-<script src="js/scrollTop.js"></script>
     <header>
         <nav class="mainnav">
            <a href="javascript:bar.showMenu()" class="menu"></a>
@@ -35,7 +34,7 @@
         </nav>
     </header>
     <div class="banner banner_index">
-        <section class="box_index">
+        <section class="box_index obox">
             <div class="texts">
                 <ul>
                     <li>我们不停的翻弄着回忆</li>
@@ -44,7 +43,7 @@
                 </ul>
             </div>
             <div class="avatar">
-                <a href="index.html">关于我</a>
+                <a href="index/about.html">关于我</a>
             </div>
         </section>
     </div>
@@ -210,7 +209,7 @@
     </footer>
 <script src="js/base.js"></script>
 <script>
-    var a=document.getElementsByClassName('newest')[0].getElementsByTagName('a');
+    var a=document.getElementsByClassName('right')[0].getElementsByTagName('a');
     for(var i=0;i<a.length;i++){
         a[i].href="index/content.html";
     }

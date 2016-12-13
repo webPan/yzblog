@@ -56,6 +56,6 @@ window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome
 }
 
 !(function(){
-    var htmls='<a style="width:35px;height:40px;background:#000;color:#fff;position:fixed;right:5px;bottom:120px;text-align:center;line-height:40px;z-index:999" href="#" onclick="goTop();return false;">Top</a>';
+    var htmls='<a style="width:35px;height:40px;background:url(../images/top.png)no-repeat;position:fixed;right:2em;bottom:6em;z-index:999" href="#" onclick="goTop();return false;"></a>';
     document.body.innerHTML+=htmls;
 })();
